@@ -1,5 +1,16 @@
 @import 'variables.scss';
 
-body {
+body 
+{
+    background-color: $broken-white;
+}
+
+.navbar
+{
     background-color: $prime-col;
+
+    .container-fluid .nav-link
+    {
+        color: $broken-white;
+    }
 }
