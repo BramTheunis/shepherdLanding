@@ -8,13 +8,18 @@ body
 
 .navbar
 {
-    background-color: $prime-colour;
+    background-color: $primary-colour;
 
     .container-fluid .nav-link
     {
         color: $broken-white;
         text-align: center;
     }
+}
+
+.intro
+{
+    height: 60vh;
 }
 
 h1
@@ -46,7 +51,7 @@ h1
 
 .btn-primary
 {
-    background-color: $prime-colour;
+    background-color: $primary-colour;
     border: none;
 }
 
@@ -54,4 +59,17 @@ h1
 {
     background-color: transparent;
     color: black;
+}
+
+h2
+{
+    color: $primary-colour;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 3em;
+}
+
+.team
+{
+    display: grid;
 }
