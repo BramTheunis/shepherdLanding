@@ -3,14 +3,55 @@
 body 
 {
     background-color: $broken-white;
+    font-family: $secondary-font;
 }
 
 .navbar
 {
-    background-color: $prime-col;
+    background-color: $prime-colour;
 
     .container-fluid .nav-link
     {
         color: $broken-white;
+        text-align: center;
     }
+}
+
+h1
+{
+    font-family: $primary-font;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.lead
+{
+    text-align: center;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+.btn
+{
+    border-radius: 2em;
+    display: block;
+    margin: 1em auto;
+    max-width: 40%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.btn-primary
+{
+    background-color: $prime-colour;
+    border: none;
+}
+
+.btn-secondary
+{
+    background-color: transparent;
+    color: black;
 }
