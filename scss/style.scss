@@ -80,6 +80,12 @@ h2
 
 .about
 {
+    img
+    {
+        display: block;
+        margin: auto;
+    }
+
     p
     {
         max-width: 80%;
@@ -87,6 +93,7 @@ h2
         margin: auto;
         font-weight: bold;
         font-size: 1.2em;
+        margin-bottom: 3em;
     }
 }
 
@@ -159,5 +166,10 @@ h2
     {
         font-size: 1.2em;
         text-align: center;
+    }
+
+    a
+    {
+        margin-bottom: 10em;
     }
 }
