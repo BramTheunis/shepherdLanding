@@ -70,6 +70,11 @@ h1
     border: none;
 }
 
+.btn-primary:hover
+{
+    background-color: rgba(75, 182, 182, 0.7);
+}
+
 .btn-secondary
 {
     background-color: transparent;
@@ -81,7 +86,7 @@ h2
     color: $primary-colour;
     text-align: center;
     font-size: 2em;
-    padding-top: 3em;
+    padding-top: 4em;
     margin-bottom: 2em;
     margin-top: 2em;
 }
