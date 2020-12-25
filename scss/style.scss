@@ -173,3 +173,29 @@ h2
         margin-bottom: 10em;
     }
 }
+
+@media only screen and (min-width: 992px)
+{
+    .navbar
+    {
+        img
+        {
+            margin-left: 5%;
+        }
+
+        .navbar-nav
+        {
+            margin: auto;
+
+            .nav-item
+            {
+                margin: 0 1em;
+
+                .nav-link
+                {
+                    font-size: 1.2em;
+                }
+            }
+        }
+    }
+}
