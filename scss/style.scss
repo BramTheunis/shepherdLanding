@@ -89,6 +89,7 @@ h2
     padding-top: 4em;
     margin-bottom: 2em;
     margin-top: 2em;
+    font-weight: bold;
 }
 
 .about
@@ -195,6 +196,8 @@ h2
     {
         font-size: 1.2em;
         text-align: center;
+        max-width: 80%;
+        margin: auto;
     }
 
     a
@@ -205,6 +208,12 @@ h2
 
 @media only screen and (min-width: 992px)
 {
+    h2
+    {
+        text-align: left;
+        margin-left: 10%;
+    }
+
     .navbar
     {
         img
@@ -227,4 +236,123 @@ h2
             }
         }
     }
+
+    .intro
+    {
+        text-align: center;
+
+        h1  
+        {
+            margin-bottom: 1em;
+            font-size: 5em;
+        }
+
+        .lead
+        {
+            font-size: 1.6em;
+            margin-top: -2em;
+        }
+
+        .btn
+        {
+            display: inline-block;
+            margin: auto 1em;
+        }
+    }
+
+    .about
+    {
+        .aboutIntro
+        {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(2, auto);
+            max-width: 70%;
+
+            img
+            {
+                grid-column: 1;
+                grid-row: 1;
+            }
+
+            p
+            {
+                grid-column: 2;
+                grid-row: 1;
+                text-align: left;
+            }
+
+            a
+            {
+                grid-column: 2;
+                grid-row: 2;
+                justify-self: start;
+                max-width: 100%;
+            }
+        }
+
+        .team
+        {
+            display: flex;
+            width: 80%;
+
+            .member
+            {
+                margin-top: 5em;
+
+                img
+                {
+                    width: 9em;
+                }
+            }
+        }
+    }
+
+    .what
+    {
+        .features
+        {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(2, auto);
+
+            .item
+            {
+                display: grid;
+                grid-template-columns: 30% 70%;
+                grid-template-rows: repeat(3, auto);
+
+                img
+                {
+                    display: inline-block;
+                    grid-row: 1 / 4;
+                    justify-self: center;
+                    align-self: center;
+                    margin-right: 3em;
+                }
+
+                h3
+                {
+                    text-align: left;
+                    grid-column: 2 / 3;
+                    margin-left: 0;
+                }
+
+                p
+                {
+                    text-align: left;
+                    grid-column: 2 / 3;
+                }
+
+                a
+                {
+                    text-align: left;
+                    grid-column: 2 / 3;
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+
+    
 }
