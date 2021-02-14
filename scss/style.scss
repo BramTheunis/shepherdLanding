@@ -33,7 +33,7 @@ body
 
 .intro
 {
-    height: 60vh;
+    height: 75vh;
 }
 
 h1
@@ -136,7 +136,7 @@ h2
     .item
     {
         display: grid;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(3, auto);
         margin-top: 5em;
         max-width: 85%;
@@ -145,31 +145,28 @@ h2
         {
             margin: auto;
             height: 5em;
+            grid-row-start: 2;
+            margin-top: 2em;
         }
 
         h3
         {
             text-align: center;
-            grid-column-start: 2;
+            grid-column-start: 1;
             grid-column-end: 4;
             font-weight: bold;
             font-size: 1.8em;
             margin: auto;
+            margin-top: 2em;
+            display: block;
         }
 
         p
         {
             grid-column-start: span 3;
+            grid-row-start: 3;
             text-align: center;
             margin: 2em auto;
-            font-size: 1.2em;
-        }
-
-        a
-        {
-            grid-column-start: span 3;
-            text-align: center;
-            margin: auto;
             font-size: 1.2em;
         }
     }
@@ -321,12 +318,12 @@ h2
             {
                 display: grid;
                 grid-template-columns: 30% 70%;
-                grid-template-rows: repeat(3, auto);
+                grid-template-rows: 1fr 6fr;
 
                 img
                 {
                     display: inline-block;
-                    grid-row: 1 / 4;
+                    grid-row: 1 / 2;
                     justify-self: center;
                     align-self: center;
                     margin-right: 3em;
@@ -343,13 +340,6 @@ h2
                 {
                     text-align: left;
                     grid-column: 2 / 3;
-                }
-
-                a
-                {
-                    text-align: left;
-                    grid-column: 2 / 3;
-                    margin-left: 0;
                 }
             }
         }
