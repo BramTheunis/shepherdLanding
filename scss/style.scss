@@ -53,8 +53,8 @@ body
             width: 2em;
             height: 2em;
             margin-left: -12px;
-            border-left: 2px solid $primary-colour;
-            border-bottom: 2px solid $primary-colour;
+            border-left: 3px solid $primary-colour;
+            border-bottom: 3px solid $primary-colour;
             -webkit-transform: rotate(-45deg);
             transform: rotate(-45deg);
         }
@@ -66,7 +66,7 @@ h1
     font-family: $primary-font;
     text-align: center;
     margin-top: 3em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .lead
@@ -74,7 +74,7 @@ h1
     text-align: center;
     max-width: 80%;
     margin-left: 10%;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     font-weight: bold;
 }
 
