@@ -106,6 +106,14 @@ h1
     color: black;
 }
 
+.btn-sub
+{
+    background-color: $broken-white;
+    border: none;
+    padding: 0.5em 2em;
+    border-radius: 2em;
+}
+
 h2
 {
     color: $primary-colour;
@@ -236,6 +244,11 @@ h2
     {
         margin-bottom: 10em;
     }
+}
+
+footer
+{
+    background-color: $primary-colour;
 }
 
 @media only screen and (min-width: 992px)
