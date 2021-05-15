@@ -120,7 +120,7 @@ h2
     text-align: center;
     font-size: 2em;
     padding-top: 4em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     margin-top: 2em;
     font-weight: bold;
 }
@@ -183,7 +183,7 @@ h2
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, auto);
-        margin-top: 5em;
+        margin-top: 2em;
         max-width: 85%;
 
         img
@@ -211,7 +211,7 @@ h2
             grid-column-start: span 3;
             grid-row-start: 3;
             text-align: center;
-            margin: 2em auto;
+            margin: 1em auto;
             font-size: 1.2em;
         }
     }
