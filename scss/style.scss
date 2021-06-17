@@ -92,7 +92,7 @@ h1
     max-width: 50%;
     font-size: 1.5em;
     font-weight: bold;
-    padding: 0.5em 2em;
+    padding: 0.5em 1em;
 }
 
 .btn-primary
@@ -269,6 +269,11 @@ footer
     {
         text-align: left;
         margin-left: 10%;
+    }
+
+    .btn
+    {
+        padding: 0.5em 2em;
     }
 
     .navbar
